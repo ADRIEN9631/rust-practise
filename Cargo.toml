@@ -1,0 +1,13 @@
+[package]
+name = "minigrep"
+version = "0.1.0"
+authors = ["adrien <756279471@qq.com>"]
+edition = "2018"
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
+
+[dependencies]
